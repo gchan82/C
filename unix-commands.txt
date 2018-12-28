@@ -21,3 +21,13 @@ cat filename.txt (conCATenate/redirect output to terminal)
 ls -la >> lsOutput (places list long-form/all into file)
 less lsOutput (display less)
 
+Vim commands: (reference: C Programming Tutorial 18 - Vim Basics - Part 2 - Caleb Curry)
+shift + ZZ (save)
+ctrl + z (goto bash), fg + enter (goto vim)
+yy (copy), 4 + yy (copy 4 lines)
+dd (cut)
+p/P (paste)
+
+
+vim:
+o/O (add line / new line)
