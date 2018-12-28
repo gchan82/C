@@ -1,0 +1,23 @@
+pwd
+ls
+cd ..
+-l
+-ls -l (long version)
+-ls -a (all files)
+cd / (root directory)
+cd (home directory)
+cd ~ (reference from home directory) ***
+cd ~/project/graphql
+ls .. (list files in parent directory)
+
+mkdir test (make directory named "test")
+mv filename.c newfilename.c (rename file)
+mv filename.c ./test (move file to folder "test")
+rm ./test/filename.c (remove new file)
+
+echo "Hello World text" >> hellofile (>> appends to file, prevents overwrite)
+cat filename.txt (conCATenate/redirect output to terminal)
+
+ls -la >> lsOutput (places list long-form/all into file)
+less lsOutput (display less)
+
