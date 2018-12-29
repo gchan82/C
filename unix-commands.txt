@@ -31,3 +31,13 @@ p/P (paste)
 
 vim:
 o/O (add line / new line)
+
+C programming: (from types.c file)
+scanf("%lf", %cash)) // long float - computer can use as float or scientific
+
+:syntax on
+:set number
+
+
+5G - goto line 5
+
