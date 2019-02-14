@@ -108,16 +108,16 @@ int main()
 		}
 		else if (option ==2){
 			printf("Please input base a:\n");
-			scanf("%d", &base);
+			scanf("%lf", &base);
 			printf("Please input exponent b:\n");
-			scanf("%d", &exp);
+			scanf("%lf", &exp);
 			double sum;
 			sum = base;
-			for (int i = 0; i < (int)exp; i++)
+			for (int i = 0; i < (int)(exp-1); i++)
 			{
 				sum *= base;
 			}
-			printf("Your a^b value is: %0.2lf\n", base);
+			printf("Your a^b value is: %0.2lf\n", sum);
 		}
 		else if(option==3){
 			return 0;
